@@ -1,0 +1,60 @@
+body {
+  background-color: hsl(0, 0%, 8%);
+  color: white;
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background-color: hsl(0, 0%, 12%);
+  padding: 2rem;
+  border-radius: 15px;
+  text-align: center;
+  width: 320px;
+  box-shadow: 0 15px, 30px, rgba(0, 0, 0, 0.3);
+}
+
+.avatar {
+  width: 90px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 2px solid white;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin: 0;
+}
+h2 {
+  font-size: 0.9em;
+  color: hsl(75, 94%, 57%);
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 0.85em;
+  color: hsl(0, 0% 85%);
+  margin-bottom: 25px;
+}
+
+.buttons a {
+  display: block;
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+  text-decoration: none;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.buttons a:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
